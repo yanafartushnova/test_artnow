@@ -30,7 +30,7 @@ public class HomePage {
     public HomePage(WebDriver driver, WebDriverWait webDriverWait) {
         PageFactory.initElements(driver, this);
         this.driver = driver;
-        this.webDriverWait = new WebDriverWait(driver, 10);
+        this.webDriverWait = new WebDriverWait(driver, 20);
     }
 
     @Description("Check the start page")
